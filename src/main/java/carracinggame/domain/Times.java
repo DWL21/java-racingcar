@@ -7,7 +7,7 @@ public class Times {
     private int times;
     private int theNumberOfTimes = 0;
 
-    public Times(String input) throws IllegalArgumentException{
+    public Times(String input) throws IllegalArgumentException {
         isRightTimes(input);
         this.times = Integer.parseInt(input);
     }

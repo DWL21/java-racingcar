@@ -31,7 +31,7 @@ public class CarNamesController {
         return StringUtils.trimCarNames(carNames);
     }
 
-    private void checkCarNames(String[] carNames) throws IllegalArgumentException{
+    private void checkCarNames(String[] carNames) throws IllegalArgumentException {
         for (String carName : carNames) {
             CarNames.checkRightLength(carName);
         }

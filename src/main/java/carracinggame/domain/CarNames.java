@@ -5,7 +5,6 @@ import carracinggame.view.OutputView;
 public class CarNames {
 
 
-
     private static final String REGEX = ",+[\\s\\t],+|^[\\s\\t]*,.*|.*,[\\s\\t]*$";
     public static final int NAME_MAX_LENGTH = 6;
     public static final int NAME_MIN_LENGTH = 0;
